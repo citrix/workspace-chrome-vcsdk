@@ -1,0 +1,25 @@
+site_name: Citrix Receiver for Chrome Virtual Channel SDK
+site_description: Documentation for Citrix Receiver for Chrome Virtual Channel SDK
+theme_dir: citrix-sdk
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+     anchorlink: true
+
+pages:
+ - Introduction: index.md
+ - System requirements: system-requirements.md
+ - Using example programs: using-example-programs.md
+ - Building examples: building-examples.md
+ - Programming guide: programming-guide.md
+ - Programming reference: programming-reference.md
+ - Classes:
+   - CustomVC: customvc.md
+   - ReceiverError: receiver-error.md
+   - Utils: utils.md
+ - Namespaces:
+   - receiver: namespace-receiver.md
+ - Global: global.md
+ - Known limitations: known-limitations.md
