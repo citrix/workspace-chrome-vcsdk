@@ -16,7 +16,7 @@ You may refer sample VC examples (ping, mix and over) provided for more details 
 
 | Name | Type | Description |
 |----|----|----|
-| `utils` | Object | Object of Utils |
+| [utils](./utils.md) | Object | Object of Utils |
 
 ### (readonly) apiVersion
 
@@ -41,7 +41,7 @@ Registers the handlers for the virtual channel and returns the object that needs
 |----|----|----|
 | `vcInfo` |	Object | Object containing the details of the virtual channel name, version, description and the callbacks for various functionalities |
 
-#### Properties
+##### Properties of vcInfo
 
 | Name | Type | Attributes| Description |
 |----|----|----|----|
@@ -51,7 +51,7 @@ Registers the handlers for the virtual channel and returns the object that needs
 | `maxVersion` |	String	| <optional> | Highest supported version of this virtual channel, used to allow version negotiation between the client-side and the server-side components.|
 | `driverOpen` |	driverOpen |	| Callback that gets called when the virtual channel is about to be opened in the session. Will be called for each session launch. |
 | `driverInfo` |	driverInfo | | Callback that gets called to send any information about the virtual channel.Will be called for each session launch. |
-| `icaDataArrival`	| icaDataArrival | | Callback set for receiving the ica packet from the server side component of virtual channel.|
+| `icaDataArrival`	| [icaDataArrival](./global.md/#icadata) | | Callback set for receiving the ica packet from the server side component of virtual channel.|
 | `driverClose`	| driverClose	 |  | Callback set for receiving the virtual channel close in the session. |
 
 #### Throws
@@ -60,15 +60,15 @@ Error during registration of Virtual Channel.
 
 #### Type
 
-ReceiverError
+[ReceiverError](./receiver-error.md)
 
 #### Returns
 
-Object of CustomVC.
+Object of [CustomVC](./customvc.md).
 
 #### Type
 
-CustomVC
+[CustomVC](./customvc.md)
 
 #### Example
 
