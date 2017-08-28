@@ -13,7 +13,7 @@
 | `maxVersion	`| string	| Highest supported version of this virtual channel, used to allow version negotiation between the client-side and the server-side components. |
 | `driverOpen`	| [driverOpen](./global.md#driveropen)	| Callback set for receiving virtual channel open from the session |
 | `driverInfo`	| [driverInfo](./global.md#driverinfo)	| Callback set for sending virtual channel information from the session|
-| `icaDataArrival`	| [icaDataArrival](./global.md/#icadata)	| Callback set for receiving the ica packet from the server side component of virtual channel. |
+| `icaDataArrival`	| [icaDataArrival](./global.md#icadata)	| Callback set for receiving the ica packet from the server side component of virtual channel. |
 | `driverClose` |	[driverClose](./global.md#driverclose)	| Callback set for receiving the virtual channel close in the session. |
 
 ## Methods

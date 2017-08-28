@@ -178,9 +178,9 @@ Reply to be sent by the driverOpen callback for each session.
 | `driverOpenReply.streamName` |	string	 | Virtual channel name |
 | `driverOpenReply.enable` |	boolean | Setting to true/false will enable/disable the VC open for the session with id = driverOpenMsg.sessionId. By default enable will be false.
 
-<a name="icadata"></a>
 
-### icaDataArrival(msg)
+
+### <a name="icadata"></a>icaDataArrival(msg)
 
 Callback that gets called when an ica packet is sent by the server component of virtual channel. 
 
