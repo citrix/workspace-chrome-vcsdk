@@ -1,5 +1,5 @@
 site_name: Virtual Channel SDK for Citrix Receiver for Chrome 2.5
-site_description: Documentation for Virtual Channel SDK for Citrix Receiver for Chrome 2.5
+site_description: Documentation for the Virtual Channel SDK for Citrix Receiver for Chrome 2.5
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
