@@ -49,10 +49,10 @@ Registers the handlers for the virtual channel and returns the object that needs
 | `description`	| String	| <optional> | Description of the Virtual channel |
 | `minVersion` |	String	| <optional> | Lowest supported version of this virtual channel, used to allow version negotiation between the client-side and the server-side components. |
 | `maxVersion` |	String	| <optional> | Highest supported version of this virtual channel, used to allow version negotiation between the client-side and the server-side components.|
-| `driverOpen` |	driverOpen |	| Callback that gets called when the virtual channel is about to be opened in the session. Will be called for each session launch. |
-| `driverInfo` |	driverInfo | | Callback that gets called to send any information about the virtual channel.Will be called for each session launch. |
-| `icaDataArrival`	| [icaDataArrival](./global.md/#icadata) | | Callback set for receiving the ica packet from the server side component of virtual channel.|
-| `driverClose`	| driverClose	 |  | Callback set for receiving the virtual channel close in the session. |
+| `driverOpen` |	[driverOpen](./global/#driveropen) |	| Callback that gets called when the virtual channel is about to be opened in the session. Will be called for each session launch. |
+| `driverInfo` |	[driverInfo](./global/#driverinfo) | | Callback that gets called to send any information about the virtual channel.Will be called for each session launch. |
+| `icaDataArrival`	| [icaDataArrival](./global/#icadata) | | Callback set for receiving the ica packet from the server side component of virtual channel.|
+| `driverClose`	| [driverClose](./global/#driverclose)	 |  | Callback set for receiving the virtual channel close in the session. |
 
 #### Throws
 

@@ -3,9 +3,9 @@
 ## Type Definitions
 
 
-<a name="driverclose"></a>
 
-### driverClose(msg)
+
+### <a name="driverclose">driverClose(msg)</a> 
 
 Callback that gets called when the virtual channel is closed for a session
 Do any cleanup of the virtual channel in your implementation inside the callback.
@@ -40,9 +40,9 @@ Contains the details of the session for which the virtual channel is closed.
 | `driverCloseMsg.sessionId` |	string	 | Id of the session launched. |
 | `driverCloseMsg.streamName`|	string	| Virtual channel name. |
 
-<a name="driverinfo"></a>
 
-### driverInfo(msg) → {driverInfoReply}
+
+### <a name="driverinfo">driverInfo(msg) → {driverInfoReply}</a>
 
 Callback that gets called for each session provided the virtual channel is enabled through driverOpen callback. 
 Use this to send any of the virtual channel information to the session.
@@ -117,9 +117,9 @@ Reply to be sent by the driverInfo callback for each session.
 | `driverOpenReply.packet` |	packet	| Set the information in Uint8Array with offset and length appropriately or set null if no data to be sent. |
 
 
-<a name="driveropen"></a>
 
-### driverOpen(msg) → {driverOpenReply} 
+
+### <a name="driveropen">driverOpen(msg) → {driverOpenReply}</a>
 
 Callback that gets called when the virtual channel is about to be opened upon each session launch.
 
