@@ -1,6 +1,6 @@
-# Citrix Virtual Channel SDK for Citrix Receiver for Chrome 2.6
+# Citrix Virtual Channel SDK for Citrix Workspace app for Chrome 1808
 
-The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol. The server-side virtual channel applications are on XenApp or XenDesktop servers. This version of the SDK provides support for writing new virtual channels for Receiver for Chrome. If you want to write virtual drivers for other client platforms, contact Citrix.
+The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol. The server-side virtual channel applications are on XenApp or XenDesktop servers. This version of the SDK provides support for writing new virtual channels for Workspace app for Chrome. If you want to write virtual drivers for other client platforms, contact Citrix.
 
 The Virtual Channel SDK provides:
 
@@ -9,4 +9,4 @@ The Virtual Channel SDK provides:
 * The Virtual Channel SDK requires the WFAPI SDK to write the server side of the virtual channel.
 
 !!!tip "Note"
-		The Virtual Channel SDK is supported for Citrix Receiver for Chrome version 2.5 upwards.
+		The Virtual Channel SDK is supported for Citrix Workspace app for Chrome version 1808 upwards.

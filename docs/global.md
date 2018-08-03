@@ -2,9 +2,6 @@
 
 ## Type Definitions
 
-
-
-
 ### <a name="driverclose">driverClose(msg)</a> 
 
 Callback that gets called when the virtual channel is closed for a session
