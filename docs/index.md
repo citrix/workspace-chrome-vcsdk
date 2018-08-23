@@ -1,4 +1,4 @@
-# Citrix Virtual Channel SDK for Citrix Workspace app for Chrome 1808
+# Citrix Virtual Channel SDK for Citrix Workspace app 1808 for Chrome
 
 The Citrix Virtual Channel Software Development Kit (SDK) provides support for writing server-side applications and client-side drivers for additional virtual channels using the ICA protocol. The server-side virtual channel applications are on XenApp or XenDesktop servers. This version of the SDK provides support for writing new virtual channels for Workspace app for Chrome. If you want to write virtual drivers for other client platforms, contact Citrix.
 
