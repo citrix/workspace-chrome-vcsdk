@@ -6,7 +6,7 @@ Examples of the latest server-side executables have been provided for testing. Y
 
 ## Building a client-side example
 
-For example on sample apps, see the [download](https://www.citrix.com/downloads/citrix-receiver/chrome/receiver-for-chrome-sdk-latest.html) page. 
+For example on sample apps, see the [download](https://www.citrix.com/downloads/workspace-app/virtual-channel-sdks/virtual-channel-sdk.html) page. 
 
 ### Loading Sample virtual channel apps
 
